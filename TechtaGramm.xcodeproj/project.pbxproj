@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33444BC725CFCACF00F8B959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444BC625CFCACF00F8B959 /* AppDelegate.swift */; };
+		33444BC925CFCACF00F8B959 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444BC825CFCACF00F8B959 /* SceneDelegate.swift */; };
+		33444BCB25CFCACF00F8B959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444BCA25CFCACF00F8B959 /* ViewController.swift */; };
+		33444BCE25CFCACF00F8B959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33444BCC25CFCACF00F8B959 /* Main.storyboard */; };
+		33444BD025CFCAD300F8B959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33444BCF25CFCAD300F8B959 /* Assets.xcassets */; };
+		33444BD325CFCAD300F8B959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33444BD125CFCAD300F8B959 /* LaunchScreen.storyboard */; };
+		33444BDE25CFCAD400F8B959 /* TechtaGrammTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444BDD25CFCAD400F8B959 /* TechtaGrammTests.swift */; };
+		33444BE925CFCAD400F8B959 /* TechtaGrammUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444BE825CFCAD400F8B959 /* TechtaGrammUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33444BDA25CFCAD400F8B959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33444BBB25CFCACF00F8B959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33444BC225CFCACF00F8B959;
+			remoteInfo = TechtaGramm;
+		};
+		33444BE525CFCAD400F8B959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33444BBB25CFCACF00F8B959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33444BC225CFCACF00F8B959;
+			remoteInfo = TechtaGramm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33444BC325CFCACF00F8B959 /* TechtaGramm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechtaGramm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33444BC625CFCACF00F8B959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33444BC825CFCACF00F8B959 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33444BCA25CFCACF00F8B959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33444BCD25CFCACF00F8B959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33444BCF25CFCAD300F8B959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33444BD225CFCAD300F8B959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33444BD425CFCAD300F8B959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33444BD925CFCAD400F8B959 /* TechtaGrammTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechtaGrammTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33444BDD25CFCAD400F8B959 /* TechtaGrammTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechtaGrammTests.swift; sourceTree = "<group>"; };
+		33444BDF25CFCAD400F8B959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33444BE425CFCAD400F8B959 /* TechtaGrammUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechtaGrammUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33444BE825CFCAD400F8B959 /* TechtaGrammUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechtaGrammUITests.swift; sourceTree = "<group>"; };
+		33444BEA25CFCAD400F8B959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33444BC025CFCACF00F8B959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33444BD625CFCAD400F8B959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33444BE125CFCAD400F8B959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33444BBA25CFCACE00F8B959 = {
+			isa = PBXGroup;
+			children = (
+				33444BC525CFCACF00F8B959 /* TechtaGramm */,
+				33444BDC25CFCAD400F8B959 /* TechtaGrammTests */,
+				33444BE725CFCAD400F8B959 /* TechtaGrammUITests */,
+				33444BC425CFCACF00F8B959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33444BC425CFCACF00F8B959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33444BC325CFCACF00F8B959 /* TechtaGramm.app */,
+				33444BD925CFCAD400F8B959 /* TechtaGrammTests.xctest */,
+				33444BE425CFCAD400F8B959 /* TechtaGrammUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33444BC525CFCACF00F8B959 /* TechtaGramm */ = {
+			isa = PBXGroup;
+			children = (
+				33444BC625CFCACF00F8B959 /* AppDelegate.swift */,
+				33444BC825CFCACF00F8B959 /* SceneDelegate.swift */,
+				33444BCA25CFCACF00F8B959 /* ViewController.swift */,
+				33444BCC25CFCACF00F8B959 /* Main.storyboard */,
+				33444BCF25CFCAD300F8B959 /* Assets.xcassets */,
+				33444BD125CFCAD300F8B959 /* LaunchScreen.storyboard */,
+				33444BD425CFCAD300F8B959 /* Info.plist */,
+			);
+			path = TechtaGramm;
+			sourceTree = "<group>";
+		};
+		33444BDC25CFCAD400F8B959 /* TechtaGrammTests */ = {
+			isa = PBXGroup;
+			children = (
+				33444BDD25CFCAD400F8B959 /* TechtaGrammTests.swift */,
+				33444BDF25CFCAD400F8B959 /* Info.plist */,
+			);
+			path = TechtaGrammTests;
+			sourceTree = "<group>";
+		};
+		33444BE725CFCAD400F8B959 /* TechtaGrammUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33444BE825CFCAD400F8B959 /* TechtaGrammUITests.swift */,
+				33444BEA25CFCAD400F8B959 /* Info.plist */,
+			);
+			path = TechtaGrammUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33444BC225CFCACF00F8B959 /* TechtaGramm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33444BED25CFCAD400F8B959 /* Build configuration list for PBXNativeTarget "TechtaGramm" */;
+			buildPhases = (
+				33444BBF25CFCACF00F8B959 /* Sources */,
+				33444BC025CFCACF00F8B959 /* Frameworks */,
+				33444BC125CFCACF00F8B959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechtaGramm;
+			productName = TechtaGramm;
+			productReference = 33444BC325CFCACF00F8B959 /* TechtaGramm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33444BD825CFCAD400F8B959 /* TechtaGrammTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33444BF025CFCAD400F8B959 /* Build configuration list for PBXNativeTarget "TechtaGrammTests" */;
+			buildPhases = (
+				33444BD525CFCAD400F8B959 /* Sources */,
+				33444BD625CFCAD400F8B959 /* Frameworks */,
+				33444BD725CFCAD400F8B959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33444BDB25CFCAD400F8B959 /* PBXTargetDependency */,
+			);
+			name = TechtaGrammTests;
+			productName = TechtaGrammTests;
+			productReference = 33444BD925CFCAD400F8B959 /* TechtaGrammTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33444BE325CFCAD400F8B959 /* TechtaGrammUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33444BF325CFCAD400F8B959 /* Build configuration list for PBXNativeTarget "TechtaGrammUITests" */;
+			buildPhases = (
+				33444BE025CFCAD400F8B959 /* Sources */,
+				33444BE125CFCAD400F8B959 /* Frameworks */,
+				33444BE225CFCAD400F8B959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33444BE625CFCAD400F8B959 /* PBXTargetDependency */,
+			);
+			name = TechtaGrammUITests;
+			productName = TechtaGrammUITests;
+			productReference = 33444BE425CFCAD400F8B959 /* TechtaGrammUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33444BBB25CFCACF00F8B959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					33444BC225CFCACF00F8B959 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					33444BD825CFCAD400F8B959 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 33444BC225CFCACF00F8B959;
+					};
+					33444BE325CFCAD400F8B959 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 33444BC225CFCACF00F8B959;
+					};
+				};
+			};
+			buildConfigurationList = 33444BBE25CFCACF00F8B959 /* Build configuration list for PBXProject "TechtaGramm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33444BBA25CFCACE00F8B959;
+			productRefGroup = 33444BC425CFCACF00F8B959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33444BC225CFCACF00F8B959 /* TechtaGramm */,
+				33444BD825CFCAD400F8B959 /* TechtaGrammTests */,
+				33444BE325CFCAD400F8B959 /* TechtaGrammUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33444BC125CFCACF00F8B959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33444BD325CFCAD300F8B959 /* LaunchScreen.storyboard in Resources */,
+				33444BD025CFCAD300F8B959 /* Assets.xcassets in Resources */,
+				33444BCE25CFCACF00F8B959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33444BD725CFCAD400F8B959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33444BE225CFCAD400F8B959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33444BBF25CFCACF00F8B959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33444BCB25CFCACF00F8B959 /* ViewController.swift in Sources */,
+				33444BC725CFCACF00F8B959 /* AppDelegate.swift in Sources */,
+				33444BC925CFCACF00F8B959 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33444BD525CFCAD400F8B959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33444BDE25CFCAD400F8B959 /* TechtaGrammTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33444BE025CFCAD400F8B959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33444BE925CFCAD400F8B959 /* TechtaGrammUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33444BDB25CFCAD400F8B959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33444BC225CFCACF00F8B959 /* TechtaGramm */;
+			targetProxy = 33444BDA25CFCAD400F8B959 /* PBXContainerItemProxy */;
+		};
+		33444BE625CFCAD400F8B959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33444BC225CFCACF00F8B959 /* TechtaGramm */;
+			targetProxy = 33444BE525CFCAD400F8B959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33444BCC25CFCACF00F8B959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33444BCD25CFCACF00F8B959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33444BD125CFCAD300F8B959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33444BD225CFCAD300F8B959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33444BEB25CFCAD400F8B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33444BEC25CFCAD400F8B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33444BEE25CFCAD400F8B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGramm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.nishiwaki.sen.TechtaGramm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33444BEF25CFCAD400F8B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGramm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.nishiwaki.sen.TechtaGramm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33444BF125CFCAD400F8B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGrammTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.nishiwaki.sen.TechtaGrammTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechtaGramm.app/TechtaGramm";
+			};
+			name = Debug;
+		};
+		33444BF225CFCAD400F8B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGrammTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.nishiwaki.sen.TechtaGrammTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechtaGramm.app/TechtaGramm";
+			};
+			name = Release;
+		};
+		33444BF425CFCAD400F8B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGrammUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.nishiwaki.sen.TechtaGrammUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechtaGramm;
+			};
+			name = Debug;
+		};
+		33444BF525CFCAD400F8B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGrammUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.nishiwaki.sen.TechtaGrammUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechtaGramm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33444BBE25CFCACF00F8B959 /* Build configuration list for PBXProject "TechtaGramm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33444BEB25CFCAD400F8B959 /* Debug */,
+				33444BEC25CFCAD400F8B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33444BED25CFCAD400F8B959 /* Build configuration list for PBXNativeTarget "TechtaGramm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33444BEE25CFCAD400F8B959 /* Debug */,
+				33444BEF25CFCAD400F8B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33444BF025CFCAD400F8B959 /* Build configuration list for PBXNativeTarget "TechtaGrammTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33444BF125CFCAD400F8B959 /* Debug */,
+				33444BF225CFCAD400F8B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33444BF325CFCAD400F8B959 /* Build configuration list for PBXNativeTarget "TechtaGrammUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33444BF425CFCAD400F8B959 /* Debug */,
+				33444BF525CFCAD400F8B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33444BBB25CFCACF00F8B959 /* Project object */;
+}
